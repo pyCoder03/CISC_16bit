@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 //"DFF_POSEDGE":["NAND 7 5 4","NAND 4 1 3 5","NAND 5 1 7 6","NAND 6 2 3 7","NAND 5 9 8","NAND 8 6 3 9",{"CLK":"1","D":"2","RST":"3","Q":"8","Q'":"9"}], #Reset is active low
-module nand3(a,b,c);
+module nand2(a,b,c);
 output a;
 input b,c;
 assign a=~(b&c);
