@@ -30,6 +30,5 @@ The Barrel Shifter is designed to perform all the shift-left operations using co
 The ALU Shifter contains all the preprocessing and post processing logic to formulate all Shift left, right and all rotate operations.
 
 Here comes the RTL schematic,
+![image](https://github.com/pyCoder03/CISC_16bit/assets/93860462/6a140018-959c-4a57-a843-1578837bff23)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2e6a17f-220c-432f-ab64-7dfc05913a34/Untitled.png)
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2e6a17f-220c-432f-ab64-7dfc05913a34/Untitled.png)
