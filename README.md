@@ -16,12 +16,10 @@ In a machine cycle, the following thins take place
 - After the ***************RD’*************** or the ***************WR’*************** signals are deactivated (made high), ***DEN’*** is deactivated after a half-T-state. This delay is to ensure that the bus is not closed (floated) before the data transmission is complete.
 
 The generated RTL schematic for the Bus interface unit is,
-
-
+![image](https://github.com/pyCoder03/CISC_16bit/assets/93860462/d36d46f6-88c4-49e8-b3a7-ff5cf9bedd64)
 
 Sample timing waveform
-
-
+![image](https://github.com/pyCoder03/CISC_16bit/assets/93860462/7e9bef33-0190-4b83-93dc-d7c06620a8ea)
 
 ### Barrel Shifter
 
