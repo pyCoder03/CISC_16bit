@@ -17,11 +17,11 @@ In a machine cycle, the following thins take place
 
 The generated RTL schematic for the Bus interface unit is,
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7d67ae72-1f9c-470d-abec-5db0ba95a1d5/Untitled.png)
+![BIU](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7d67ae72-1f9c-470d-abec-5db0ba95a1d5/Untitled.png)
 
 Sample timing waveform
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a3df9231-01ec-4627-b52e-ce933ee97192/Untitled.png)
+![Timing](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a3df9231-01ec-4627-b52e-ce933ee97192/Untitled.png)
 
 ### Barrel Shifter
 
