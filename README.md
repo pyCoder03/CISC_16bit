@@ -17,11 +17,11 @@ In a machine cycle, the following thins take place
 
 The generated RTL schematic for the Bus interface unit is,
 
-![BIU](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7d67ae72-1f9c-470d-abec-5db0ba95a1d5/Untitled.png)
+
 
 Sample timing waveform
 
-![Timing](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a3df9231-01ec-4627-b52e-ce933ee97192/Untitled.png)
+
 
 ### Barrel Shifter
 
@@ -31,4 +31,5 @@ The ALU Shifter contains all the preprocessing and post processing logic to form
 
 Here comes the RTL schematic,
 
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2e6a17f-220c-432f-ab64-7dfc05913a34/Untitled.png)
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2e6a17f-220c-432f-ab64-7dfc05913a34/Untitled.png)
