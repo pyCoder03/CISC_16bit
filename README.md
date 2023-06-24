@@ -12,7 +12,7 @@ Regarding the signals, given the Bus-Interface Enable is high at the start of a 
 In a machine cycle, the following thins take place
 
 - The ***ALE*** (Address Latch Enable) is made high for the first T-state alone, for the efficient demultiplexing of the address and data. The ALE will act as the strobe for an external latch which will then hold the address.
-- The ***RD’*** or the ***WR’*** signals (depending on the ***DT/R’*** signal) are then made low for the next two T-states for giving sufficient time for the data to arrive at the data latches from the peripherals/reach the peripherals with stability. ***DEN’***(Data Enable) ******signal is also parallelly made low. Data Enable is used as a active-low output enable for the bidirectional (transceiver) buffer.
+- The ***RD’*** or the ***WR’*** signals (depending on the ***DT/R’*** signal) are then made low for the next two T-states for giving sufficient time for the data to arrive at the data latches from the peripherals/reach the peripherals with stability. ***DEN’***(Data Enable) signal is also parallelly made low. Data Enable is used as a active-low output enable for the bidirectional (transceiver) buffer.
 - After the ***************RD’*************** or the ***************WR’*************** signals are deactivated (made high), ***DEN’*** is deactivated after a half-T-state. This delay is to ensure that the bus is not closed (floated) before the data transmission is complete.
 
 The generated RTL schematic for the Bus interface unit is,
